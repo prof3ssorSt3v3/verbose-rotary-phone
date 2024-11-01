@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM Manipulation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- add a google font link here -->
+    <!-- add CSS reset here -->
+    <!-- add your CSS here -->
+    <script src="js/main.js" type="module"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Dynamic Content</h1>
+    </header>
+    <main>
+      <h2>Characters from Supernatural</h2>
+    </main>
+    <!-- template for generating content -->
+    <template id="character">
+      <details data-ref="">
+        <summary></summary>
+        <h3 class="role"></h3>
+        <p class="species"></p>
+        <p class="firstAppearance"></p>
+      </details>
+    </template>
+  </body>
+</html>
